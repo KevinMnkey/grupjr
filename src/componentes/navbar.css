@@ -1,7 +1,52 @@
 .navBar{
+  padding: 10px;
   width: 100%;
-  height: 100px;
-  background-color:#f1faee;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  height: 90px;
+  background-color:#ffffff;
   position: fixed;
+  display: flex;
+}
+
+#logo{
+  width: 200px;
+  height: 80px;
+}
+
+ul{
+  display: flex;
+}
+a{
+  text-decoration: none;
+}
+
+.contenedorNav{
+  width: 100%;
+  padding: 10px 0 10px 0;
+  display: flex;
+  margin: 0 25% 0 25%;
+  justify-content: space-between;
+
+
+}
+
+li{
+  display: flex;
+  justify-content: space-between;
+}
+
+.secciones{
+  width: 100%;
+  padding: 0 0 0 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.seccionesNav{
+  color: #1e375a;
+  transition: 0.5s;
+}
+
+.seccionesNav:hover{
+  color: blue;
+  
 }
