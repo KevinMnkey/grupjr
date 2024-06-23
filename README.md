@@ -68,3 +68,47 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Configuración Inicial
+
+git config --global user.name "Tu Nombre"
+git config --global user.email "tuemail@example.com"
+
+### Operaciones Básicas
+
+git init
+git clone https://github.com/usuario/repositorio.git
+
+### Operaciones en Archivos
+
+git add nombre_archivo
+git add .
+git commit -m "Mensaje de confirmación"
+
+### Sincronización con Repositorio Remoto
+
+git remote add origin https://github.com/usuario/repositorio.git
+git push origin main
+git pull origin main
+
+### Ramas (Branches)
+
+git branch nombre_rama
+git checkout nombre_rama
+git checkout -b nombre_rama
+git merge nombre_rama
+
+### Verificación y Estado
+
+git status
+git log
+
+### Revertir Cambios
+
+git checkout -- nombre_archivo
+git revert id_commit
+
+### Operaciones Avanzadas
+
+git stash
+git stash apply
